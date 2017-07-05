@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import sys
+import sys, random
 
 def main():
 
@@ -9,7 +9,8 @@ def main():
     for event in events:
         #print(event)
         data = event.split("\t")
-        print("<a href=" + str(data[1]).replace(' ', '').replace('/', '&') + ".html" + ">" + str(data[1]) + "</a><br>")
+        num = random.randint(1,3)
+        print("<button onclick="+'"'+"location.href = '" + str(data[1]).replace(' ', '').replace('/', '&') + ".html" + "';" + '" class="eventButton eventButton--'+ str(num) + '">' + str(data[1]) + "</button>")
 
 
 
