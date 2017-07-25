@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quiz</title>
+		<!--<script type="text/javascript" src="header.js"></script>
+		<link rel="stylesheet" href="header.css">-->
+		<script type="text/javascript">
+			function start() {
+				document.getElementById('quiz').innerHTML = `
+			Do you want to work with friends?
+			<br>
+			<button onclick='I();'>Yes</button>
+			<br>
+			<button onclick='II();'>No</button>
+			`;
+			}
+			function I() {
+				//alert('yes');
+				document.getElementById('quiz').innerHTML = `
+			Want to compete at area?
+			<br>
+			<button onclick='IA();'>Yes</button>
+			<br>
+			<button onclick='IB();'>No</button>
+			<br><br>
+			<button onclick='start();'>Back</button>
+				`;
+			}
+				function IA() {
+					document.getElementById('quiz').innerHTML = `
+			Do you want to work with technology or media?
+			<br>
+			<button onclick='IA1();'>Yes</button>
+			<br>
+			<button onclick='IA2();'>No</button>
+			<br><br>
+			<button onclick='I();'>Back</button>
+				`;
+				}
+					function IA1() {
+						document.getElementById('quiz').innerHTML = `
+			Which of these topics interests you the most?
+			<br>
+			<button onclick='IA1a();'>Information Technology (IT)</button>
+			<br>
+			<button onclick='IA1b();'>Graphic Media & Web Design</button>
+			<br><br>
+			<button onclick='IA();'>Back</button>
+				`;
+					}
+						function IA1a() {
+							document.getElementById('quiz').innerHTML = `
+			Information Technology (IT)
+			<br>
+			<button onclick="window.open('NetworkDesignTeam.html',target='_blank');">Network Design Team</button>
+			<br><br>
+			<button onclick='IA1();'>Back</button>
+				`;
+					}
+						function IA1b() {
+						document.getElementById('quiz').innerHTML = `
+			Which one?
+			<br>
+			<button onclick='IA1b1();'>Web Design</button>
+			<br>
+			<button onclick='IA1b2();'>Graphic Media</button>
+			<br><br>
+			<button onclick='IA1();'>Back</button>
+				`;
+					}
+						function IA1b1() {
+						document.getElementById('quiz').innerHTML = `
+			Web Design
+			<br>
+			<button onclick="window.open('WebsiteDesignTeam.html',target='_blank');">Website Design Team</button>
+			<br><br>
+			<button onclick='IA1b();'>Back</button>
+				`;
+					}
+						function IA1b2() {
+						document.getElementById('quiz').innerHTML = `
+			Graphic Media
+			<br>
+			<button onclick="window.open('VideoProductionTeam.html',target='_blank');">Video Production Team</button>
+			<br>
+			<button onclick="window.open('ComputerAnimationTeam.html',target='_blank');">Computer Animation Team</button>
+			<br>
+			<button onclick="window.open('BroadcastNewsProductionTeam.html',target='_blank');">Broadcast News Production Team</button>
+			<br><br>
+			<button onclick='IA1b();'>Back</button>
+				`;
+					}
+					function IA2() {
+						document.getElementById('quiz').innerHTML = `
+			Choose a category that interests you.
+			<br>
+			<button onclick='IA2a();'>Economics & Finance</button>
+			<br>
+			<button onclick='IA2b();'>Business Management & Administration</button>
+			<br>
+			<button onclick='IA2c();'>Marketing</button>
+			<br>
+			<button onclick='IA2d();'>None of These</button>
+			<br><br>
+			<button onclick='IA();'>Back</button>
+				`;
+					}
+						function IA2a() {
+							document.getElementById('quiz').innerHTML = `
+			Economics & Finance
+			<br>
+			<button onclick="window.open('FinancialAnalystTeam.html',target='_blank');">Financial Analyst Team</button>
+			<br>
+			<button onclick="window.open('EconomicResearchTeam.html',target='_blank');">Economic Research Team</button>
+			<br><br>
+			<button onclick='IA2();'>Back</button>
+							`;
+						}
+						function IA2b() {
+							document.getElementById('quiz').innerHTML = `
+			Business Management & Administration
+			<br>
+			<button onclick="window.open('AdministrativeSupportTeam.html',target='_blank');">Administrative Support Team</button>
+			<br>
+			<button onclick="window.open('SmallBusinessManagementTeam.html',target='_blank');">Small Business Management Team</button>
+			<br><br>
+			<button onclick='IA2();'>Back</button>
+							`;
+						}
+						function IA2c() {
+							document.getElementById('quiz').innerHTML = `
+			Marketing
+			<br>
+			<button onclick="window.open('GlobalMarketingTeam.html',target='_blank');">Global Marketing Team</button>
+			<br><br>
+			<button onclick='IA2();'>Back</button>
+							`;
+						}
+						function IA2d() {
+							document.getElementById('quiz').innerHTML = `
+			None of These
+			<br>
+			<button onclick="window.open('ParliamentaryProcedureTeam.html',target='_blank');">Financial Analyst Team</button>
+			<br><br>
+			<button onclick='IA2();'>Back</button>
+							`;
+						}
+				function IB() {
+					alert('IB');
+				}
+
+			function II() {
+				alert('II');
+			}
+		</script>
+	</head>
+	<body>
+		<!--<div id="reusable"></div>-->
+		<div id="quiz">
+			Do you want to work with friends?
+			<br>
+			<button onclick='I();'>Yes</button>
+			<br>
+			<button onclick='II();'>No</button>
+		</div>
+	</body>
+</html>

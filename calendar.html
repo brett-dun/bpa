@@ -4,22 +4,115 @@
 		<title>Calendar</title>
 		<script type="text/javascript" src="header.js"></script>
 		<link rel="stylesheet" href="header.css">
+		<script type="text/javascript">
+			var element = document.getElementById('FMSC');
+			function displayFMSC() {
+				element.style.background("#666666");
+				//alert("hi");
+			}
+		</script>
+		<style>
+			h2 {
+				text-align: center;
+			}
+			#content {
+				width: 80%;
+  				margin: 0 auto;
+  				overflow: auto;
+
+  				font-family: arial;
+			}
+
+			.line {
+				position: relative;
+				background: #333333;
+				padding: 1px;
+			}
+			.calendarEvent {
+				width: 97%;
+				/*min-width: 200px;*/
+    			/*height: 100px;*/
+    			float: left;
+    			/*margin: 1%;*/
+
+    			background: white;
+
+    			margin-top: 10px;
+    			padding: 0 1% 10px 1%;
+				/*background: #ffd700;*/
+				border: solid 3px #333333;
+				border-radius: 16px;
+
+				word-wrap: break-word;
+
+				/*font-size: 15px;*/
+				color: #333333; /*#ffd700;*/
+			}
+
+			.buttonHolder {
+				margin: 0;
+				width: 100%;
+				min-width: 500px;
+				overflow-y: auto;
+
+				background: #333333;
+				font-family: arial;
+			}
+			.calendarEventButton {
+				width: 16.666%;
+				min-width: 100px;
+    			height: 100px;
+    			float: left;
+
+    			background: #333333;
+				border: none;/*#ffd700;*/
+
+				font-size: 25px;
+				color: white; /*#ffd700;*/
+			}
+			.calendarEventButton:hover {
+				background: #999999;
+			}
+		</style>
 	</head>
 	<body>
-		<!--Start Reusable Header Code-->
-		<div id="header">
-			<img class="headerImage" src="wildcat.png">
-			<img class="headerImage" src="nvbusiness.gif">
-			<button onclick="location.href = 'index.html';" class="headerButton">Home</button>
-			<button onclick="location.href = 'calendar.html';" class="headerButton">Calendar</button>
-			<button onclick="location.href = 'events.html';" class="headerButton">Events</button>
-			<button onclick="location.href = 'contactus.html';" class="headerButton">Contact Us</button>
+		<div id="reusable"></div>
+		<div class="buttonHolder">
+			<button id="FMSC" class="calendarEventButton" onclick="displayFMSC()"> <h2>FMSC</h2> </button>
+			<button id="CN" class="calendarEventButton"> <h2>CN</h2> </button>
+			<button id="FLC" class="calendarEventButton"> <h2>FLC</h2> </button>
+			<button id="Area" class="calendarEventButton"> <h2>Area</h2> </button>
+			<button id="SLC" class="calendarEventButton"> <h2>SLC</h2> </button>
+			<button id="NLC" class="calendarEventButton"> <h2>NLC</h2> </button>
 		</div>
-		<div id="headerBackground">
+
+		<div id="content">
+
+			<div id="1" class="calendarEvent">
+				<h2>Feed My Starving Children Volunteering</h2>
+				<p><b>Date:</b> TBD</p>
+				<p><b>Description:</b> --</p>
+			</div>
+			<div id="3" class="calendarEvent">
+				<h2>Fall Leadership Conference (FLC)</h2>
+				<p><b>Date:</b> --</p>
+				<p><b>Description:</b> BPA Members vote for the State Executive board and help promote a unified BPA body by attending various leadership seminars.</p>
+			</div>
+			<div id="4" class="calendarEvent">
+				<h2>Area</h2>
+				<p><b>Date:</b> --</p>
+				<p><b>Description:</b> Top performers from the Regional level advance and compete in their competitions against BPA members from across Illinois. Top 5 individual competitors and Top 2 teams in each event advance to nationals</p>
+			</div>
+			<div id="5" class="calendarEvent">
+				<h2>State Leadership Conference (SLC)</h2>
+				<p><b>Date:</b> --</p>
+				<p><b>Description:</b> BPA members compete in their events at the regional level against Waubonsie and Metea. Top competitors advance to state.</p>
+			</div>
+			<div id="6" class="calendarEvent">
+				<h2>National Leadership Conference (NLC)</h2>
+				<p><b>Date:</b> May 9-13, 2018</p>
+				<p><b>Description:</b> Qualifiers from across the nation come together for this highly competitive BPA conference. The top individuals from each state compete in their respective events. Along with competitions, BPA members are given the opportunity to make connections with students across the nation.</p>
+			</div>
 		</div>
-		<div>
-			<img class="topImage" src="nvhs.jpg">
-		</div>
-		<!--End Reusable Header Code-->
 	</body>
 </html>

@@ -10,14 +10,16 @@ def main():
         #print(event)
         data = event.split("\t")
         #print(data)
-        htmlCode = (open("template.html","r")).read()
-        htmlCode = htmlCode.replace("EVENTNUMBER",str(data[0]))
-        htmlCode = htmlCode.replace("TITLE",str(data[1]))
-        htmlCode = htmlCode.replace("DESCRIPTION",str(data[2]))
-        htmlCode = htmlCode.replace("CONTACTS",str(data[3]))
-        filename = str(data[1]).replace(' ', '').replace('/', '&') + ".html"
+        html = (open("template.html","r")).read()
+        html = html.replace("EVENTNUMBER",str(data[0]))
+        html = html.replace("TITLE",str(data[1]))
+        html = html.replace("DESCRIPTION",str(data[2]))
+        html = html.replace("CONTACTS",str(data[3]))
+
+        filename = "events/" + str(data[1]).replace(' ', '').replace('/', '&') + ".html"
+
         print(filename)
-        (open(filename,"w")).write(htmlCode)
+        (open(filename,"w")).write(html)
 
 
 
