@@ -187,7 +187,7 @@
 			<br>
 			<button class="button" onclick="window.open('Start-upEnterpriseTeam-Pilot.html',target='_blank');">Start-up Enterprise Team-Pilot</button>
 			<br><br>
-			<button class="button" onclick='IA2();'>Back</button>
+			<button class="button" onclick='I();'>Back</button>
 			<br>
 			<button class="button" onclick='start();'>Restart</button>
 			<br>
@@ -284,7 +284,7 @@
 			<br>
 			<button class="button" onclick='IIB1a();'>IT & Computer Science</button>
 			<br>
-			<button class="button" onclick='IIB1b();'>Graphic Media & Web Design</button>
+			<button class="button" onclick='IIB1b();'>Graphic Media, Web Design & Software</button>
 			<br><br>
 			<button class="button" onclick='IIB();'>Back</button>
 			<br>
@@ -296,13 +296,13 @@
 							document.getElementById('quiz').innerHTML = `
 			What interests you the most?
 			<br>
-			<button class="button" onclick='IIB1a();'>Computer Programming</button>
+			<button class="button" onclick='IIB1a1();'>Computer Programming</button>
 			<br>
-			<button class="button" onclick='IIB1b();'>Computer Networking</button>
+			<button class="button" onclick='IIB1a2();'>Computer Networking</button>
 			<br>
-			<button class="button" onclick='IIB1b();'>Databases</button>
+			<button class="button" onclick='IIB1a3();'>Databases</button>
 			<br>
-			<button class="button" onclick='IIB1b();'>PC Servicing</button>
+			<button class="button" onclick='IIB1a4();'>PC Servicing</button>
 			<br><br>
 			<button class="button" onclick='IIB1();'>Back</button>
 			<br>
@@ -314,7 +314,7 @@
 								document.getElementById('quiz').innerHTML = `
 			<u>Computer Programming</u>
 			<br>
-			<button class="button" onclick="window.open('VisualBasic&C#Programming.html',target='_blank');">Visual Basic/C# Programming</button>
+			<button class="button" onclick="window.open('VisualBasic&CProgramming.html',target='_blank');">Visual Basic/C# Programming</button>
 			<br>
 			<button class="button" onclick="window.open('C++Programming.html',target='_blank');">C++ Programming</button>
 			<br>
@@ -494,7 +494,7 @@
 			<br>
 			<button class="button" onclick='IIB2b();'>Another Field</button>
 			<br><br>
-			<button class="button" onclick='IIB2();'>Back</button>
+			<button class="button" onclick='IIB();'>Back</button>
 			<br>
 			<button class="button" onclick='start();'>Restart</button>
 			<br>
@@ -508,7 +508,7 @@
 			<br>
 			<button class="button" onclick='IIB2a2();'>No</button>
 			<br><br>
-			<button class="button" onclick='IIB2a2B2();'>Back</button>
+			<button class="button" onclick='IIB2();'>Back</button>
 			<br>
 			<button class="button" onclick='start();'>Restart</button>
 			<br>
@@ -564,7 +564,7 @@
 			<br>
 			<button class="button" onclick="window.open('AdvancedOfficeSystems&Procedures.html',target='_blank');">Advanced Office Systems & Procedures</button>
 			<br><br>
-			<button class="button" onclick='IIB2a2a();'>Back</button>
+			<button class="button" onclick='IIB2a2();'>Back</button>
 			<br>
 			<button class="button" onclick='start();'>Restart</button>
 			<br>
@@ -576,7 +576,7 @@
 			<br>
 			<button class="button" onclick="window.open('Entrepreneurship.html',target='_blank');">Entrepreneurship</button>
 			<br><br>
-			<button class="button" onclick='IIB2a2a();'>Back</button>
+			<button class="button" onclick='IIB2a2();'>Back</button>
 			<br>
 			<button class="button" onclick='start();'>Restart</button>
 			<br>

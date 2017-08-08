@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta http-equiv="refresh" content="0; url=index.html" />
+		<!--<meta http-equiv="refresh" content="0; url=index.html" />-->
 		<title>Calendar</title>
 		<script type="text/javascript" src="header.js"></script>
 		<link rel="stylesheet" href="header.css">
-		<script type="text/javascript">
+		<!--<script type="text/javascript">
 			var element = document.getElementById('FMSC');
 			function displayFMSC() {
 				element.style.background("#666666");
 				//alert("hi");
 			}
-		</script>
+		</script>-->
 		<style>
+			body {
+				background: #333333;
+				color: white;
+				text-align: center;
+			}
 			h2 {
+				font-family: arial;
+				color: white;
 				text-align: center;
 			}
 			#content {
@@ -26,7 +33,7 @@
 
 			.line {
 				position: relative;
-				background: #333333;
+				background: white;
 				padding: 1px;
 			}
 			.calendarEvent {
@@ -78,7 +85,7 @@
 	</head>
 	<body>
 		<div id="reusable"></div>
-		<div class="buttonHolder">
+		<!--<div class="buttonHolder">
 			<button id="FMSC" class="calendarEventButton" onclick="displayFMSC()"> <h2>FMSC</h2> </button>
 			<button id="CN" class="calendarEventButton"> <h2>CN</h2> </button>
 			<button id="FLC" class="calendarEventButton"> <h2>FLC</h2> </button>
@@ -114,6 +121,30 @@
 				<p><b>Date:</b> May 9-13, 2018</p>
 				<p><b>Description:</b> Qualifiers from across the nation come together for this highly competitive BPA conference. The top individuals from each state compete in their respective events. Along with competitions, BPA members are given the opportunity to make connections with students across the nation.</p>
 			</div>
+		</div>-->
+		<div id="content">
+			<h2>Important Dates</h2>
+
+			<div class="line"></div>
+
+			<p>WEEKLY MEETINGS - THURSDAY MORNINGS in C202 @ 6:50am</p>
+			<p> Last Day to Join BPA for 2017-2018 - Friday, September 22</p>
+
+			<div class="line"></div>
+
+			<p>Feed My Starving Children Volunteering - October 18 and November 1 @ 6-7:30pm</p>
+			<p>Homecoming Window Decorating - Homecoming Week</p>
+			<p>Fall Leadership Conference @ Doubletree Hotel, Oakbrook - November 17-18</p>
+			<p>Area Computer Events @ NVHS - December 12</p>
+			<p>Area Competitive Events @ NVHS - January 13</p>
+
+			<div class="line"></div>
+
+			<p>State Leadership Conference @ Doubletree Hotel, Oakbrook - March 1-3</p>
+			<p>National Leadership Conference in Dallas, Texas - May 9-13</p>
+			<p>Contest Night & Other Service Projects - TBD</p>
 		</div>
+		<br>
+
 	</body>
 </html>
