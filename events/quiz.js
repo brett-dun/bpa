@@ -53,7 +53,7 @@
 					}
 						function IA1a() {
 							document.getElementById('quiz').innerHTML = `
-			Information Technology (IT)
+			<u>Information Technology (IT)</u>
 			<br>
 			<button class="button" onclick="window.open('NetworkDesignTeam.html',target='_blank');">Network Design Team</button>
 			<br><br>
@@ -79,7 +79,7 @@
 					}
 						function IA1b1() {
 						document.getElementById('quiz').innerHTML = `
-			Web Design
+			<u>Web Design</u>
 			<br>
 			<button class="button" onclick="window.open('WebsiteDesignTeam.html',target='_blank');">Website Design Team</button>
 			<br><br>
@@ -91,7 +91,7 @@
 					}
 						function IA1b2() {
 						document.getElementById('quiz').innerHTML = `
-			Graphic Media
+			<u>Graphic Media</u>
 			<br>
 			<button class="button" onclick="window.open('VideoProductionTeam.html',target='_blank');">Video Production Team</button>
 			<br>
@@ -125,7 +125,7 @@
 					}
 						function IA2a() {
 							document.getElementById('quiz').innerHTML = `
-			Economics & Finance
+			<u>Economics & Finance</u>
 			<br>
 			<button class="button" onclick="window.open('FinancialAnalystTeam.html',target='_blank');">Financial Analyst Team</button>
 			<br>
@@ -139,7 +139,7 @@
 						}
 						function IA2b() {
 							document.getElementById('quiz').innerHTML = `
-			Business Management & Administration
+			<u>Business Management & Administration</u>
 			<br>
 			<button class="button" onclick="window.open('AdministrativeSupportTeam.html',target='_blank');">Administrative Support Team</button>
 			<br>
@@ -153,7 +153,7 @@
 						}
 						function IA2c() {
 							document.getElementById('quiz').innerHTML = `
-			Marketing
+			<u>Marketing</u>
 			<br>
 			<button class="button" onclick="window.open('GlobalMarketingTeam.html',target='_blank');">Global Marketing Team</button>
 			<br><br>
@@ -165,7 +165,7 @@
 						}
 						function IA2d() {
 							document.getElementById('quiz').innerHTML = `
-			None of These
+			<u>None of These</u>
 			<br>
 			<button class="button" onclick="window.open('ParliamentaryProcedureTeam.html',target='_blank');">Financial Analyst Team</button>
 			<br><br>
@@ -177,7 +177,7 @@
 						}
 				function IB() {
 					document.getElementById('quiz').innerHTML = `
-			Team Virtual Events:
+			<u>Team Virtual Events</u>
 			<br>
 			<button class="button" onclick="window.open('VirtualMultimedia&Promotion-Team.html',target='_blank');">Virtual Multimedia & Promotion - Team</button>
 			<br>
@@ -226,7 +226,7 @@
 				}
 					function IIA1() {
 						document.getElementById('quiz').innerHTML = `
-			Accounting
+			<u>Accounting</u>
 			<br>
 			<button class="button" onclick="window.open('FundamentalAccounting.html',target='_blank');">Fundamental Accounting</button>
 			<br>
@@ -242,7 +242,7 @@
 					}
 					function IIA2() {
 						document.getElementById('quiz').innerHTML = `
-			Marketing
+			<u>Marketing</u>
 			<br>
 			<button class="button" onclick="window.open('GraphicDesignPromotion.html',target='_blank');">Graphic Design Promotion</button>
 			<br><br>
@@ -254,7 +254,7 @@
 					}
 					function IIA3() {
 						document.getElementById('quiz').innerHTML = `
-			Economics
+			<u>Economics</u>
 			<br>
 			<button class="button" onclick="window.open('EconomicResearchIndividual.html',target='_blank');">Economic Research Individual</button>
 			<br><br>
@@ -312,7 +312,7 @@
 						}
 							function IIB1a1() {
 								document.getElementById('quiz').innerHTML = `
-			Computer Programming
+			<u>Computer Programming</u>
 			<br>
 			<button class="button" onclick="window.open('VisualBasic&C#Programming.html',target='_blank');">Visual Basic/C# Programming</button>
 			<br>
@@ -328,7 +328,7 @@
 							}
 							function IIB1a2() {
 								document.getElementById('quiz').innerHTML = `
-			Computer Networking
+			<u>Computer Networking</u>
 			<br>
 			<button class="button" onclick="window.open('ComputerNetworkTechnology.html',target='_blank');">Computer Network Technology</button>
 			<br>
@@ -344,7 +344,7 @@
 							}
 							function IIB1a3() {
 								document.getElementById('quiz').innerHTML = `
-			Databases
+			<u>Databases</u>
 			<br>
 			<button class="button" onclick="window.open('DatabaseApplications.html',target='_blank');">Database Applications</button>
 			<br>
@@ -358,7 +358,7 @@
 							}
 							function IIB1a4() {
 								document.getElementById('quiz').innerHTML = `
-			PC Servicing
+			<u>PC Servicing</u>
 			<br>
 			<button class="button" onclick="window.open('PCServicing&Troubleshooting.html',target='_blank');">PC Servicing & Troubleshooting</button>
 			<br><br>
@@ -386,7 +386,7 @@
 						}
 							function IIB1b1() {
 								document.getElementById('quiz').innerHTML = `
-			Web Design
+			<u>Web Design</u>
 			<br>
 			<button class="button" onclick="window.open('FundamentalsofWebDesign.html',target='_blank');">Fundamentals of Web Design</button>
 			<br><br>
@@ -398,7 +398,7 @@
 							}
 							function IIB1b2() {
 								document.getElementById('quiz').innerHTML = `
-			Graphic Media
+			<u>Graphic Media</u>
 			<br>
 			<button class="button" onclick="window.open('GraphicDesignPromotion.html',target='_blank');">Graphic Design Promotion</button>
 			<br>
@@ -434,7 +434,7 @@
 							}
 								function IIB1b3a() {
 									document.getElementById('quiz').innerHTML = `
-			Word Processing
+			<u>Word Processing</u>
 			<br>
 			<button class="button" onclick="window.open('FundamentalWordProcessing.html',target='_blank');">Fundamental Word Processing</button>
 			<br>
@@ -450,7 +450,7 @@
 								}
 								function IIB1b3b() {
 									document.getElementById('quiz').innerHTML = `
-			Spreadsheets
+			<u>Spreadsheets</u>
 			<br>
 			<button class="button" onclick="window.open('FundamentalSpreadsheetApplications.html',target='_blank');">Fundamental Spreadsheet Applications</button>
 			<br>
@@ -464,7 +464,7 @@
 								}
 								function IIB1b3c() {
 									document.getElementById('quiz').innerHTML = `
-			3D Modeling
+			<u>3D Modeling</u>
 			<br>
 			<button class="button" onclick="window.open('ComputerModeling.html',target='_blank');">Computer Modeling</button>
 			<br><br>
@@ -476,7 +476,7 @@
 								}
 								function IIB1b3d() {
 									document.getElementById('quiz').innerHTML = `
-			Other Software
+			<u>Other Software</u>
 			<br>
 			<button class="button" onclick="window.open('IntegratedOfficeApplications.html',target='_blank');">Integrated Office Applications</button>
 			<br><br>
@@ -516,7 +516,7 @@
 						}
 							function IIB2a1() {
 								document.getElementById('quiz').innerHTML = `
-			Management and Administration
+			<u>Management and Administration</u>
 			<br>
 			<button class="button" onclick="window.open('AdministrativeSupportResearchProject.html',target='_blank');">Administrative Support Research Project</button>
 			<br>
@@ -546,7 +546,7 @@
 							}
 								function IIB2a2a() {
 									document.getElementById('quiz').innerHTML = `
-			Finance
+			<u>Finance</u>
 			<br>
 			<button class="button" onclick="window.open('PersonalFinancialManagement.html',target='_blank');">Personal Financial Management</button>
 			<br><br>
@@ -558,7 +558,7 @@
 								}
 								function IIB2a2b() {
 									document.getElementById('quiz').innerHTML = `
-			Office Procedures
+			<u>Office Procedures</u>
 			<br>
 			<button class="button" onclick="window.open('BasicOfficeSystems&Procedures.html',target='_blank');">Basic Office Systems & Procedures</button>
 			<br>
@@ -572,7 +572,7 @@
 								}
 								function IIB2a2c() {
 									document.getElementById('quiz').innerHTML = `
-			Entrepreneurship
+			<u>Entrepreneurship</u>
 			<br>
 			<button class="button" onclick="window.open('Entrepreneurship.html',target='_blank');">Entrepreneurship</button>
 			<br><br>
@@ -600,7 +600,7 @@
 						}
 							function IIB2b1() {
 								document.getElementById('quiz').innerHTML = `
-			Medicine
+			<u>Medicine</u>
 			<br>
 			<button class="button" onclick="window.open('MedicalOfficeProcedures.html',target='_blank');">Medical Office Procedures</button>
 			<br><br>
@@ -612,7 +612,7 @@
 							}
 							function IIB2b2() {
 								document.getElementById('quiz').innerHTML = `
-			Law
+			<u>Law</u>
 			<br>
 			<button class="button" onclick="window.open('LegalOfficeProcedures.html',target='_blank');">Legal Office Procedures</button>
 			<br>
@@ -626,7 +626,7 @@
 							}
 							function IIB2b3() {
 								document.getElementById('quiz').innerHTML = `
-			Neither
+			<u>Neither</u>
 			<br>
 			<button class="button" onclick="window.open('InterviewSkills.html',target='_blank');">Interview Skills</button>
 			<br>
