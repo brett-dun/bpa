@@ -1,10 +1,10 @@
 		function start() {
 				document.getElementById('quiz').innerHTML = `
-			Do you want to work with friends?
+			Do you want to work with friends or work individually?
 			<br>
-			<button class="button" onclick='I();'>Yes</button>
+			<button class="button" onclick='I();'>With Friends</button>
 			<br>
-			<button class="button" onclick='II();'>No</button>
+			<button class="button" onclick='II();'>Individually</button>
 			<br>
 			`;
 			}

@@ -2,10 +2,39 @@
 <html>
 	<head>
 		<title>Contact Us</title>
-		<script type="text/javascript" src="header.js"></script>
+		<!--<script type="text/javascript" src="header.js"></script>-->
 		<link rel="stylesheet" href="header.css">
+		<style>
+			body {
+				background-color: #333333;
+			}
+			#content {
+				margin: 20% auto;
+				vertical-align: center;
+				text-align: center;
+				font-family: arial;
+				font-size: 20px;
+				color: white;
+			}
+		</style>
 	</head>
 	<body>
-		<div id="reusable"></div>
+
+		<div id="header">
+			<img class="headerImage" src="wildcat.png">
+			<img class="headerImage" src="nvbusiness.gif">
+			<button onclick="location.href = 'index.html';" class="headerButton">Home</button>
+			<button onclick="location.href = 'calendar.html';" class="headerButton">Calendar</button>
+			<button onclick="location.href = 'events.html';" class="headerButton">Events</button>
+			<button onclick="location.href = 'contactus.html';" class="headerButton">Contact Us</button>
+		</div>
+		<div id="headerBackground" background="#006fff"></div>
+		<br>
+		<div id="content">
+			<h2>Questions? Contact a BPA advisor.</h2>
+			<p>Mr. Geers: <a href="kevin_geers@ipsd.org" style="text-decoration: none">kevin_geers@ipsd.org</a></p> 
+			<p>Mr. Cebrzynski: <a href="chris_cebrzynski@ipsd.org" style="text-decoration: none">chris_cebrzynski@ipsd.org</a></p>
+			<p>
+		</div>
 	</body>
 </html>

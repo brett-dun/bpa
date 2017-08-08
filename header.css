@@ -5,12 +5,8 @@
 	width: 98%;
 	height: 30px;
 
-	/*opacity: 0.9;*/
-
 	background: none;
 	overflow: hidden;
-	/*border-style: none none solid none;
-	border-color: #006fff;*/
 	z-index: 2;
 }
 #headerBackground {
@@ -20,12 +16,8 @@
 	width: 100%;
 	height: 50px;
 
-	/*opacity: 0.9;*/
-
-	background: none;
+	background: "none";
 	overflow: hidden;
-	/*border-style: none none solid none;
-	border-color: #006fff;*/
 	z-index: 1;
 
 }

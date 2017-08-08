@@ -14,6 +14,7 @@ window.onload = function() {
 		</div>`;
 }
 
+
 window.onscroll = function() {
     var header = document.getElementById('headerBackground');
     if ( window.pageYOffset > 100 ) {
