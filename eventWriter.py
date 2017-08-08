@@ -16,7 +16,7 @@ def main():
         html = html.replace("DESCRIPTION",str(data[2]))
         html = html.replace("CONTACTS",str(data[3]))
 
-        filename = "events/" + str(data[1]).replace(' ', '').replace('/', '&') + ".html"
+        filename = "events/" + str(data[1]).replace(' ', '').replace('/', '&').replace('#','') + ".html"
 
         print(filename)
         (open(filename,"w")).write(html)

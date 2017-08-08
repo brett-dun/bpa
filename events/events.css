@@ -1,0 +1,114 @@
+.quizButton {
+				width: 300px;
+				height: 100px;
+
+				background: white;/*#ffd700;*/
+				border: solid 3px #333333;/*ffd700;*/
+				border-radius: 4px;
+
+				font-size: 40px;
+				color: #006fff;
+
+				transition: 0.25s ease-in;
+			}
+			.quizButton:hover {
+				/*background: #666666;/*#ffd700;*
+				border-color: #666666;
+				color: white;*/
+				border-width: 9px;
+			}
+
+
+
+			.line {
+				position: relative;
+				background: #006fff;
+				padding: 1px;
+			}
+
+
+
+			#content {
+				width: 80%;
+  				margin: 0 auto;
+  				overflow: auto;
+
+  				font-family: arial;
+			}
+			h2 {
+				color: #006fff;
+				text-align: center;
+			}
+			.buttonHolder {
+				width: 100%;
+				overflow-y: auto;
+			}
+			.catagoryButton {
+				width: 31.333%;
+				min-width: 200px;
+    			height: 100px;
+    			float: left;
+    			margin: 1%;
+
+				background: white;/*ffd700;*/
+				border: solid 3px #333333;/*#ffd700;*/
+				border-radius: 8px;
+
+				font-size: 25px;
+				color: #333333; /*#ffd700;*/
+			}
+			.catagoryButton:hover {
+				background: #333333;
+				color: white;
+				/*color: white;
+				border-color: #006fff;*/
+			}
+			/*.catagoryButton:active {
+				background: #006fff;
+				color: white;
+				border-color: #006fff;
+			}*/
+
+
+			.eventButton {
+				width: 23%;
+				min-width: 225px;
+    			height: 125px;
+    			float: left;
+    			margin: 1%;
+
+    			border-radius: 8px;
+				font-size: 25px;
+
+				transition: 0.4s ease-in;
+			}
+			.eventButton--1 {
+				background: white;/*#ffd700;*/
+				border: solid 3px #673AB7;
+				
+				color: #673AB7;
+			}
+			.eventButton--1:hover {
+				background: #673AB7;
+				color: white;
+			}
+			.eventButton--2 {
+				background: white;/*#ffd700;*/
+				border: solid 3px #3F51B5;
+				
+				color: #3F51B5;
+			}
+			.eventButton--2:hover {
+				background: #3F51B5;
+				color: white;
+			}
+			.eventButton--3 {
+				background: white;/*#ffd700;*/
+				border: solid 3px #2196F3;
+				
+				color: #2196F3;
+			}
+			.eventButton--3:hover {
+				background: #2196F3;
+				color: white;
+			}

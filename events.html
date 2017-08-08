@@ -4,126 +4,7 @@
 		<title>Events</title>
 		<script type="text/javascript" src="header.js"></script>
 		<link rel="stylesheet" href="header.css">
-		<style>
-			.quizButton {
-				width: 300px;
-				height: 100px;
-
-				background: white;/*#ffd700;*/
-				border: solid 3px #333333;/*ffd700;*/
-				border-radius: 4px;
-
-				font-size: 40px;
-				color: #006fff;
-
-				transition: 0.25s ease-in;
-			}
-			.quizButton:hover {
-				/*background: #666666;/*#ffd700;*
-				border-color: #666666;
-				color: white;*/
-				border-width: 9px;
-			}
-			/*.quizButton:active {
-				background: #ffd700;
-				border-width: 9px;
-			}*/
-
-
-
-			.line {
-				position: relative;
-				background: #006fff;
-				padding: 1px;
-			}
-
-
-
-			#content {
-				width: 80%;
-  				margin: 0 auto;
-  				overflow: auto;
-
-  				font-family: arial;
-			}
-			h2 {
-				color: #006fff;
-				text-align: center;
-			}
-			.buttonHolder {
-				width: 100%;
-				overflow-y: auto;
-			}
-			.catagoryButton {
-				width: 31.333%;
-				min-width: 200px;
-    			height: 100px;
-    			float: left;
-    			margin: 1%;
-
-				background: white;/*ffd700;*/
-				border: solid 3px #333333;/*#ffd700;*/
-				border-radius: 8px;
-
-				font-size: 25px;
-				color: #333333; /*#ffd700;*/
-			}
-			.catagoryButton:hover {
-				background: #333333;
-				color: white;
-				/*color: white;
-				border-color: #006fff;*/
-			}
-			/*.catagoryButton:active {
-				background: #006fff;
-				color: white;
-				border-color: #006fff;
-			}*/
-
-
-			.eventButton {
-				width: 23%;
-				min-width: 225px;
-    			height: 125px;
-    			float: left;
-    			margin: 1%;
-
-    			border-radius: 8px;
-				font-size: 25px;
-
-				transition: 0.4s ease-in;
-			}
-			.eventButton--1 {
-				background: white;/*#ffd700;*/
-				border: solid 3px #673AB7;
-				
-				color: #673AB7;
-			}
-			.eventButton--1:hover {
-				background: #673AB7;
-				color: white;
-			}
-			.eventButton--2 {
-				background: white;/*#ffd700;*/
-				border: solid 3px #3F51B5;
-				
-				color: #3F51B5;
-			}
-			.eventButton--2:hover {
-				background: #3F51B5;
-				color: white;
-			}
-			.eventButton--3 {
-				background: white;/*#ffd700;*/
-				border: solid 3px #2196F3;
-				
-				color: #2196F3;
-			}
-			.eventButton--3:hover {
-				background: #2196F3;
-				color: white;
-			}
-		</style>
+		<link rel="stylesheet" href="events/events.css">
 	</head>
 	<body>
 		<div id="reusable"></div>
@@ -147,65 +28,65 @@
 			<div class="line"></div>
 			<h2>All Events</h2>
 			<div class="buttonHolder">
-<button onclick="location.href = 'events/FundamentalAccounting.html';" class="eventButton eventButton--2">Fundamental Accounting</button>
-<button onclick="location.href = 'events/AdvancedAccounting.html';" class="eventButton eventButton--2">Advanced Accounting</button>
-<button onclick="location.href = 'events/PayrollAccounting.html';" class="eventButton eventButton--2">Payroll Accounting</button>
-<button onclick="location.href = 'events/Banking&Finance.html';" class="eventButton eventButton--3">Banking & Finance</button>
+<button onclick="location.href = 'events/FundamentalAccounting.html';" class="eventButton eventButton--3">Fundamental Accounting</button>
+<button onclick="location.href = 'events/AdvancedAccounting.html';" class="eventButton eventButton--1">Advanced Accounting</button>
+<button onclick="location.href = 'events/PayrollAccounting.html';" class="eventButton eventButton--3">Payroll Accounting</button>
+<button onclick="location.href = 'events/Banking&Finance.html';" class="eventButton eventButton--1">Banking & Finance</button>
 <button onclick="location.href = 'events/FinancialAnalystTeam.html';" class="eventButton eventButton--1">Financial Analyst Team</button>
-<button onclick="location.href = 'events/EconomicResearchIndividual.html';" class="eventButton eventButton--1">Economic Research Individual</button>
+<button onclick="location.href = 'events/EconomicResearchIndividual.html';" class="eventButton eventButton--3">Economic Research Individual</button>
 <button onclick="location.href = 'events/EconomicResearchTeam.html';" class="eventButton eventButton--1">Economic Research Team</button>
-<button onclick="location.href = 'events/PersonalFinancialManagement.html';" class="eventButton eventButton--2">Personal Financial Management</button>
-<button onclick="location.href = 'events/FundamentalWordProcessing.html';" class="eventButton eventButton--3">Fundamental Word Processing</button>
+<button onclick="location.href = 'events/PersonalFinancialManagement.html';" class="eventButton eventButton--3">Personal Financial Management</button>
+<button onclick="location.href = 'events/FundamentalWordProcessing.html';" class="eventButton eventButton--2">Fundamental Word Processing</button>
 <button onclick="location.href = 'events/IntermediateWordProcessing.html';" class="eventButton eventButton--2">Intermediate Word Processing</button>
 <button onclick="location.href = 'events/AdvancedWordProcessing.html';" class="eventButton eventButton--3">Advanced Word Processing</button>
 <button onclick="location.href = 'events/IntegratedOfficeApplications.html';" class="eventButton eventButton--1">Integrated Office Applications</button>
-<button onclick="location.href = 'events/BasicOfficeSystems&Procedures.html';" class="eventButton eventButton--1">Basic Office Systems & Procedures</button>
-<button onclick="location.href = 'events/AdvancedOfficeSystems&Procedures.html';" class="eventButton eventButton--2">Advanced Office Systems & Procedures</button>
+<button onclick="location.href = 'events/BasicOfficeSystems&Procedures.html';" class="eventButton eventButton--3">Basic Office Systems & Procedures</button>
+<button onclick="location.href = 'events/AdvancedOfficeSystems&Procedures.html';" class="eventButton eventButton--1">Advanced Office Systems & Procedures</button>
 <button onclick="location.href = 'events/FundamentalSpreadsheetApplications.html';" class="eventButton eventButton--3">Fundamental Spreadsheet Applications</button>
-<button onclick="location.href = 'events/AdvancedSpreadsheetApplications.html';" class="eventButton eventButton--1">Advanced Spreadsheet Applications</button>
-<button onclick="location.href = 'events/DatabaseApplications.html';" class="eventButton eventButton--2">Database Applications</button>
-<button onclick="location.href = 'events/LegalOfficeProcedures.html';" class="eventButton eventButton--2">Legal Office Procedures</button>
-<button onclick="location.href = 'events/MedicalOfficeProcedures.html';" class="eventButton eventButton--3">Medical Office Procedures</button>
+<button onclick="location.href = 'events/AdvancedSpreadsheetApplications.html';" class="eventButton eventButton--2">Advanced Spreadsheet Applications</button>
+<button onclick="location.href = 'events/DatabaseApplications.html';" class="eventButton eventButton--3">Database Applications</button>
+<button onclick="location.href = 'events/LegalOfficeProcedures.html';" class="eventButton eventButton--3">Legal Office Procedures</button>
+<button onclick="location.href = 'events/MedicalOfficeProcedures.html';" class="eventButton eventButton--1">Medical Office Procedures</button>
 <button onclick="location.href = 'events/AdministrativeSupportTeam.html';" class="eventButton eventButton--2">Administrative Support Team</button>
 <button onclick="location.href = 'events/AdministrativeSupportResearchProject.html';" class="eventButton eventButton--1">Administrative Support Research Project</button>
-<button onclick="location.href = 'events/BusinessLaw&Ethics-Pilot.html';" class="eventButton eventButton--2">Business Law & Ethics-Pilot</button>
-<button onclick="location.href = 'events/ComputerNetworkTechnology.html';" class="eventButton eventButton--3">Computer Network Technology</button>
-<button onclick="location.href = 'events/PCServicing&Troubleshooting.html';" class="eventButton eventButton--3">PC Servicing & Troubleshooting</button>
+<button onclick="location.href = 'events/BusinessLaw&Ethics-Pilot.html';" class="eventButton eventButton--1">Business Law & Ethics-Pilot</button>
+<button onclick="location.href = 'events/ComputerNetworkTechnology.html';" class="eventButton eventButton--1">Computer Network Technology</button>
+<button onclick="location.href = 'events/PCServicing&Troubleshooting.html';" class="eventButton eventButton--1">PC Servicing & Troubleshooting</button>
 <button onclick="location.href = 'events/NetworkAdministrationUsingMicrosoft.html';" class="eventButton eventButton--1">Network Administration Using Microsoft</button>
-<button onclick="location.href = 'events/SystemsAdministrationUsingCisco.html';" class="eventButton eventButton--2">Systems Administration Using Cisco</button>
-<button onclick="location.href = 'events/ComputerSecurity.html';" class="eventButton eventButton--1">Computer Security</button>
-<button onclick="location.href = 'events/NetworkDesignTeam.html';" class="eventButton eventButton--3">Network Design Team</button>
-<button onclick="location.href = 'events/VisualBasic&C#Programming.html';" class="eventButton eventButton--2">Visual Basic/C# Programming</button>
-<button onclick="location.href = 'events/C++Programming.html';" class="eventButton eventButton--1">C++ Programming</button>
-<button onclick="location.href = 'events/JavaProgramming.html';" class="eventButton eventButton--2">Java Programming</button>
-<button onclick="location.href = 'events/SQLDatabaseFundamentals.html';" class="eventButton eventButton--3">SQL Database Fundamentals</button>
-<button onclick="location.href = 'events/FundamentalDesktopPublishing.html';" class="eventButton eventButton--1">Fundamental Desktop Publishing</button>
-<button onclick="location.href = 'events/FundamentalsofWebDesign.html';" class="eventButton eventButton--1">Fundamentals of Web Design</button>
-<button onclick="location.href = 'events/GraphicDesignPromotion.html';" class="eventButton eventButton--3">Graphic Design Promotion</button>
-<button onclick="location.href = 'events/DigitalPublishing.html';" class="eventButton eventButton--2">Digital Publishing</button>
+<button onclick="location.href = 'events/SystemsAdministrationUsingCisco.html';" class="eventButton eventButton--3">Systems Administration Using Cisco</button>
+<button onclick="location.href = 'events/ComputerSecurity.html';" class="eventButton eventButton--3">Computer Security</button>
+<button onclick="location.href = 'events/NetworkDesignTeam.html';" class="eventButton eventButton--1">Network Design Team</button>
+<button onclick="location.href = 'events/VisualBasic&CProgramming.html';" class="eventButton eventButton--2">Visual Basic/C# Programming</button>
+<button onclick="location.href = 'events/C++Programming.html';" class="eventButton eventButton--3">C++ Programming</button>
+<button onclick="location.href = 'events/JavaProgramming.html';" class="eventButton eventButton--1">Java Programming</button>
+<button onclick="location.href = 'events/SQLDatabaseFundamentals.html';" class="eventButton eventButton--2">SQL Database Fundamentals</button>
+<button onclick="location.href = 'events/FundamentalDesktopPublishing.html';" class="eventButton eventButton--2">Fundamental Desktop Publishing</button>
+<button onclick="location.href = 'events/FundamentalsofWebDesign.html';" class="eventButton eventButton--3">Fundamentals of Web Design</button>
+<button onclick="location.href = 'events/GraphicDesignPromotion.html';" class="eventButton eventButton--1">Graphic Design Promotion</button>
+<button onclick="location.href = 'events/DigitalPublishing.html';" class="eventButton eventButton--3">Digital Publishing</button>
 <button onclick="location.href = 'events/DigitalMediaProduction.html';" class="eventButton eventButton--2">Digital Media Production</button>
-<button onclick="location.href = 'events/ComputerModeling.html';" class="eventButton eventButton--2">Computer Modeling</button>
+<button onclick="location.href = 'events/ComputerModeling.html';" class="eventButton eventButton--3">Computer Modeling</button>
 <button onclick="location.href = 'events/VideoProductionTeam.html';" class="eventButton eventButton--1">Video Production Team</button>
-<button onclick="location.href = 'events/WebsiteDesignTeam.html';" class="eventButton eventButton--2">Website Design Team</button>
+<button onclick="location.href = 'events/WebsiteDesignTeam.html';" class="eventButton eventButton--1">Website Design Team</button>
 <button onclick="location.href = 'events/ComputerAnimationTeam.html';" class="eventButton eventButton--1">Computer Animation Team</button>
-<button onclick="location.href = 'events/BroadcastNewsProductionTeam.html';" class="eventButton eventButton--1">Broadcast News Production Team</button>
+<button onclick="location.href = 'events/BroadcastNewsProductionTeam.html';" class="eventButton eventButton--3">Broadcast News Production Team</button>
 <button onclick="location.href = 'events/GlobalMarketingTeam.html';" class="eventButton eventButton--3">Global Marketing Team</button>
 <button onclick="location.href = 'events/Entrepreneurship.html';" class="eventButton eventButton--1">Entrepreneurship</button>
-<button onclick="location.href = 'events/SmallBusinessManagementTeam.html';" class="eventButton eventButton--3">Small Business Management Team</button>
-<button onclick="location.href = 'events/InterviewSkills.html';" class="eventButton eventButton--2">Interview Skills</button>
-<button onclick="location.href = 'events/AdvancedInterviewSkills.html';" class="eventButton eventButton--1">Advanced Interview Skills</button>
+<button onclick="location.href = 'events/SmallBusinessManagementTeam.html';" class="eventButton eventButton--1">Small Business Management Team</button>
+<button onclick="location.href = 'events/InterviewSkills.html';" class="eventButton eventButton--3">Interview Skills</button>
+<button onclick="location.href = 'events/AdvancedInterviewSkills.html';" class="eventButton eventButton--2">Advanced Interview Skills</button>
 <button onclick="location.href = 'events/ExtemporaneousSpeech.html';" class="eventButton eventButton--2">Extemporaneous Speech</button>
-<button onclick="location.href = 'events/HumanResourceManagement.html';" class="eventButton eventButton--2">Human Resource Management</button>
-<button onclick="location.href = 'events/PreparedSpeech.html';" class="eventButton eventButton--1">Prepared Speech</button>
-<button onclick="location.href = 'events/ParliamentaryProcedureTeam.html';" class="eventButton eventButton--2">Parliamentary Procedure Team</button>
+<button onclick="location.href = 'events/HumanResourceManagement.html';" class="eventButton eventButton--3">Human Resource Management</button>
+<button onclick="location.href = 'events/PreparedSpeech.html';" class="eventButton eventButton--3">Prepared Speech</button>
+<button onclick="location.href = 'events/ParliamentaryProcedureTeam.html';" class="eventButton eventButton--1">Parliamentary Procedure Team</button>
 <button onclick="location.href = 'events/PresentationManagementIndividual.html';" class="eventButton eventButton--1">Presentation Management Individual</button>
-<button onclick="location.href = 'events/VirtualMultimedia&Promotion-Individual.html';" class="eventButton eventButton--3">Virtual Multimedia & Promotion - Individual</button>
+<button onclick="location.href = 'events/VirtualMultimedia&Promotion-Individual.html';" class="eventButton eventButton--2">Virtual Multimedia & Promotion - Individual</button>
 <button onclick="location.href = 'events/VirtualMultimedia&Promotion-Team.html';" class="eventButton eventButton--3">Virtual Multimedia & Promotion - Team</button>
 <button onclick="location.href = 'events/SoftwareEngineeringTeam.html';" class="eventButton eventButton--3">Software Engineering Team</button>
 <button onclick="location.href = 'events/WebApplicationTeam.html';" class="eventButton eventButton--1">Web Application Team</button>
-<button onclick="location.href = 'events/MobileApplications.html';" class="eventButton eventButton--1">Mobile Applications</button>
+<button onclick="location.href = 'events/MobileApplications.html';" class="eventButton eventButton--2">Mobile Applications</button>
 <button onclick="location.href = 'events/PromotionalPhotography.html';" class="eventButton eventButton--1">Promotional Photography</button>
-<button onclick="location.href = 'events/Start-upEnterpriseTeam-Pilot.html';" class="eventButton eventButton--1">Start-up Enterprise Team-Pilot</button>
+<button onclick="location.href = 'events/Start-upEnterpriseTeam-Pilot.html';" class="eventButton eventButton--3">Start-up Enterprise Team-Pilot</button>
 			</div>
 		</div>
 	</body>
