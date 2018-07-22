@@ -15,6 +15,7 @@ def main():
         html = html.replace("TITLE",str(data[1]))
         html = html.replace("DESCRIPTION",str(data[2]))
         html = html.replace("CONTACTS",str(data[3]))
+        html = html.replace("URL",'<a href="' + str(data[4]) + '">' + str(data[4]) + '</a>')
 
         filename = "events/" + str(data[1]).replace(' ', '').replace('/', '&').replace('#','') + ".html"
 
